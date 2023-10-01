@@ -1,0 +1,21 @@
+
+[websrv]
+port = 4400
+max_players = 8
+password = ""
+
+[game]
+worldname = "world"
+permadeath = false
+friendlyfire = false
+saving_period = 1
+
+[worldgen]
+seed = ""
+difficulty = 10
+
+[backups]
+enabled = true
+folder = "./backups"
+period = 24
+num_to_keep = 3
